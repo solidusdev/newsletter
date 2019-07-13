@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>HTML Newsletter Mockup</title>
+        
+        <style>
+            
+            /* CSS Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            /* Responsive */
+            @media screen and (max-width: 1200px) {
+
+                /* Section 2 */
+                table tr:nth-child(4) td div table tr td div div {
+                    -ms-flex: 50% !important;
+                    flex: 50% !important;
+                    max-width: 50% !important;
+                    margin: 0rem !important;
+                    padding-bottom: 1.5rem !important; 
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                } 
+
+                /* Section 3 */
+                table tr:nth-child(5) td div table tr td div {
+                    -ms-flex: 100% !important;
+                    flex: 100% !important;
+                    max-width: 100% !important;
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                    padding: 0 !important;
+                } 
+
+                table tr:nth-child(5) td div table tr td div div p {
+                    padding-bottom: 2rem;
+                    max-width: 70% !important;
+                } 
+
+                table tr:nth-child(5) td div table tr td hr {
+                    display: block !important;
+                } 
+
+                table tr:nth-child(5) td div table {
+                    padding: 0 !important;
+                } 
+
+                table tr:nth-child(5) td {
+                    padding-top: initial !important;
+                } 
+            }
+
+            @media screen and (max-width: 800px) {
+                
+                table tr:nth-child(4) td div table tr td div div {
+                    -ms-flex: 100% !important;
+                    flex: 100% !important;
+                    max-width: 100% !important;
+                    margin: 0rem !important;
+                } 
+
+                table tr:nth-child(4) td div table tr td div {
+                    -ms-flex: 100% !important;
+                    flex: 100% !important;
+                    max-width: 100% !important;
+                    margin: 0rem !important;
+                }
+            }
+        
+        </style>
+
+    </head>
+    
+    <body style="margin: 0; padding: 0; font-family: sans-serif;">
+        
+        <!-- Table Container -->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; height: 100%;">
+            
+            <!-- Navigation -->
+            <tr>
+                <td>
+                    <nav style="position: absolute; text-align: center; width: 100%;">
+                        <ul style="color: white; text-align: center; font-weight: 400;">
+                            <li style="display: inline-block; padding: 0.5rem 1rem; cursor: pointer;">home</li>
+                            <li style="display: inline-block; padding: 0.5rem 1rem; cursor: pointer;">about</li>
+                            <li style="display: inline-block; padding: 0.5rem 1rem; cursor: pointer;">contact</li>
+                        </ul>
+                    </nav>
+                </td>
+            </tr>
+            
+            <!-- Section 1 -->
+            <tr style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./topper.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; width: 100vw; height: 70vh;">
+                <td style="color: white; text-align: center;">
+                    <div>
+                        <h1 style="font-size: 4rem; font-weight: 400;">One World</h1>
+                        <h2 style="font-weight: 300; padding-top: 1rem; font-style: italic;">Because Earth Day is every day</h2>
+                        <button style="padding: 5px 20px; border-radius: 40px; -moz-border-radius: 40px; -webkit-border-radius: 40px; color: white; background-color: #228B22; font-size: 1rem; margin-top: 1.7rem; font-weight: 100; border: 1px #228B22 solid; cursor: pointer; position: relative; bottom: -2.5rem;">learn more</button>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Section 2 -->
+            <tr style="text-align: center; align-content: center; justify-content: center;">
+                <td style="padding-top: 3rem;">
+                    <div>
+                        <h1 style="font-weight: 500; padding-bottom: 0.8rem;">Our Mission</h1>
+                        <hr style="width: 5rem; margin-left: auto; margin-right: auto; border: 1.5px #228B22 solid;"/>
+                        <img src="./asset1.jpg" alt="asset" style="max-width: 400px; margin-top: 2rem;"/>
+                        <p style="margin-top: 4rem; width: 70%; margin-right: auto; margin-left: auto; font-weight: 300; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel. Proin turpis sapien, tempus et lacus eget, blandit efficitur est. Nunc porttitor faucibus consequat. Vestibulum ullamcorper enim in hendrerit vehicula. Curabitur non magna et mi placerat blandit id id justo. Donec tincidunt sodales risus, eget mattis mi. Aenean tempor congue augue vitae gravida. Donec eu maximus dolor, at faucibus risus.</p>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Section 3 -->
+            <tr style="text-align: center; align-content: center; justify-content: center;">
+                <td style="padding-top: 3rem;">
+                    <div>
+                        <h1 style="font-weight: 500; padding-bottom: 0.8rem;">How We Accomplish This</h1>
+                        <hr style="width: 5rem; margin-left: auto; margin-right: auto; border: 1.5px #228B22 solid;"/>
+                        <!-- Grid -->
+                        <table style="padding-top: 2.3rem; margin-left: auto; margin-right: auto;">
+                            <tr style="margin-left: auto; margin-right: auto;">
+                                <td style="padding-bottom: 2rem;">
+
+                                    <!-- row -->
+                                    <div style="display: flex; flex-wrap: wrap; padding: 0 4px; display: -ms-flexbox; -ms-flex-wrap: wrap; margin: 0rem 4rem;">
+                                        
+                                        <!-- column -->
+                                        <div style="flex: 33%; max-width: 33%; padding: 0 5rem; -ms-flex: 33%;">
+                                            <img src="./asset2.jpg" alt="asset" style="margin-top: 8px; vertical-align: middle; max-width: 150px;"/>
+                                            <h4 style="padding-top: 2rem;">header</h4>
+                                            <p style="padding-top: 2rem; line-height: 2; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel.</p>
+                                        </div>
+                                        
+                                        <!-- column -->
+                                        <div style="flex: 33%; max-width: 33%; padding: 0 5rem; -ms-flex: 33%;">
+                                            <img src="./asset3.png" alt="asset" style="margin-top: 8px; vertical-align: middle; max-width: 150px;"/>
+                                            <h4 style="padding-top: 2rem;">header</h4>
+                                            <p style="padding-top: 2rem; line-height: 2; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel.</p>
+                                        </div>
+
+                                        <!-- column -->
+                                        <div style="flex: 33%; max-width: 33%; padding: 0 5rem; -ms-flex: 33%;">
+                                            <img src="./asset4.png" alt="asset" style="margin-top: 8px; vertical-align: middle; max-width: 140px;"/>
+                                            <h4 style="padding-top: 2rem;">header</h4>
+                                            <p style="padding-top: 2rem; line-height: 2; font-weight: 300;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel.</p>
+                                        </div>
+                                        
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Section 4 -->
+            <tr style="text-align: center; align-content: center; justify-content: center;">
+                <td style="padding-top: 1.5rem; padding-bottom: 10rem;">
+                    <div>
+                        <h1 style="font-weight: 500; padding-bottom: 0.8rem;">The Importance</h1>
+                        <hr style="width: 5rem; margin-left: auto; margin-right: auto; border: 1.5px #228B22 solid;"/>
+                        <!-- Grid -->
+                        <table style="padding-top: 2rem; margin-left: auto; margin-right: auto;">
+                            <tr>
+                                <td>
+                                    
+                                    <!-- Grid Item #1 -->
+                                    <div style="display: flex; flex-wrap: wrap; display: -ms-flexbox; -ms-flex-wrap: wrap; margin: 0rem 4rem; padding-top: 1.5rem;">
+
+                                        <div style="flex: 50%; max-width: 50%; -ms-flex: 50%;">
+                                            <h4 style="padding-top: 2rem;">header</h4>
+                                            <p style="padding-top: 2rem; line-height: 2; font-weight: 300; max-width: 90%; margin-left: auto; margin-right: auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel.</p>
+                                        </div>
+
+                                        <div style="flex: 50%; max-width: 50%;  -ms-flex: 50%;">
+                                            <img src="./asset5.jpg" alt="asset" style="margin-left: auto; margin-right: auto; text-align: center; max-width: 400px; justify-content: flex-start;" />
+                                        </div>
+
+                                    </div>
+
+                                    <hr style="width: 5rem; margin-left: auto; margin-right: auto; border: 1.5px black solid; text-align: center; position: relative; bottom: -2rem; display: none;"/>
+
+                                    <!-- Grid Item #2 -->
+                                    <div style="display: flex; flex-wrap: wrap; display: -ms-flexbox; -ms-flex-wrap: wrap; margin: 0rem 4rem; margin-top: 4rem;">
+                                        
+                                        <div style="flex: 50%; max-width: 50%; -ms-flex: 50%;">
+                                            <img src="./asset6.jpg" alt="asset" style="margin-left: auto; margin-right: auto; text-align: center; max-width: 400px; justify-content: flex-start;" />
+                                        </div>
+
+                                        <div style="flex: 50%; max-width: 50%; -ms-flex: 50%;">
+                                            <h4 style="padding-top: 2rem;">header</h4>
+                                            <p style="padding-top: 2rem; line-height: 2; font-weight: 300; max-width: 90%; margin-left: auto; margin-right: auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu malesuada urna, a sollicitudin libero. Nam ullamcorper nisl lectus, a consequat mauris mollis non. Nulla auctor lorem magna, at sagittis augue maximus vel.</p>
+                                        </div>
+    
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr style="text-align: center; align-content: center; justify-content: center; background-color: #228B22; margin: 0; padding: 0;">
+                <td>
+                    <footer style="width: 100%;">
+                        
+                        <p style="color: white; text-transform: uppercase; padding: 3rem 0;"> <span style="text-transform: capitalize; position: relative; top: -10px;">You are subscribed to our Mockup Newsletter <br/> </span> <span style="text-decoration: underline; cursor: pointer;">unsubscribe here </span> | <span style="text-decoration: underline; cursor: pointer;">view this email in a browser </span> </p>
+                        
+                        <div style="background-color: #9b7653; width: 100%; display: block; padding: 0.8rem 0;">
+                            <p style="color: #463526;">2019</p>
+                        </div>
+                    </footer>
+                </td>
+            </tr>
+        
+        </table>
+    </body>
+</html>
